@@ -1,0 +1,123 @@
+object Form1: TForm1
+  Left = 189
+  Top = 179
+  Width = 870
+  Height = 640
+  Caption = 'Color RGB'
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 67
+    Top = 40
+    Width = 78
+    Height = 33
+    AutoSize = False
+  end
+  object Label4: TLabel
+    Left = 67
+    Top = 128
+    Width = 85
+    Height = 33
+    AutoSize = False
+  end
+  object Label2: TLabel
+    Left = 179
+    Top = 40
+    Width = 78
+    Height = 33
+    AutoSize = False
+  end
+  object Label5: TLabel
+    Left = 283
+    Top = 40
+    Width = 78
+    Height = 33
+    AutoSize = False
+  end
+  object Label3: TLabel
+    Left = 179
+    Top = 128
+    Width = 85
+    Height = 33
+    AutoSize = False
+  end
+  object Label6: TLabel
+    Left = 291
+    Top = 128
+    Width = 85
+    Height = 33
+    AutoSize = False
+  end
+  object RedBar: TScrollBar
+    Left = 88
+    Top = 184
+    Width = 33
+    Height = 161
+    Kind = sbVertical
+    Max = 255
+    PageSize = 0
+    TabOrder = 0
+    OnChange = RedBarChange
+  end
+  object Panel1: TPanel
+    Left = 64
+    Top = 80
+    Width = 89
+    Height = 33
+    Caption = #1050#1088#1072#1089#1085#1099#1081
+    TabOrder = 1
+  end
+  object Panel2: TPanel
+    Left = 176
+    Top = 80
+    Width = 89
+    Height = 33
+    Caption = #1047#1077#1083#1077#1085#1099#1081
+    TabOrder = 2
+  end
+  object Panel3: TPanel
+    Left = 288
+    Top = 80
+    Width = 89
+    Height = 33
+    Caption = #1057#1080#1085#1080#1081
+    TabOrder = 3
+  end
+  object Panel4: TPanel
+    Left = 416
+    Top = 136
+    Width = 73
+    Height = 145
+    Caption = 'Panel4'
+    TabOrder = 4
+  end
+  object GreenBar: TScrollBar
+    Left = 200
+    Top = 184
+    Width = 33
+    Height = 161
+    Kind = sbVertical
+    Max = 255
+    PageSize = 0
+    TabOrder = 5
+    OnChange = GreenBarChange
+  end
+  object BlueBar: TScrollBar
+    Left = 312
+    Top = 184
+    Width = 33
+    Height = 161
+    Kind = sbVertical
+    Max = 255
+    PageSize = 0
+    TabOrder = 6
+    OnChange = BlueBarChange
+  end
+end
